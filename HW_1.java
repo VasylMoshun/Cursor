@@ -23,9 +23,8 @@ public class HW_1 {
 
 
         for (int i = 0; i < myarray2.length; i++) {
-            if (myarray2[i] < 0)
-                myarray2[i] = 0;
-            sum = sum + myarray2[i];
+            if (myarray2[i] > 0)
+                sum = sum + myarray2[i];
         }
         System.out.println("sum of all the positive elements myarray2:" + sum);
 
